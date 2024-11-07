@@ -11,8 +11,6 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - name: Down1
-      run: wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.2.1_build/ghidra_11.2.1_PUBLIC_20241105.zip
     - uses: LarchLiu/actions-save-files@v1.0.3
       with:
         github_token: ${{ github.token }}
